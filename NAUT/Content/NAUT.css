@@ -1,8 +1,33 @@
 ﻿.Content
 {
-    color:#363635;
+    color:White;
     font-family:Tahoma;
     font-size:100%; 
+}
+
+.DocumentContent
+{
+    color:Black;
+    font-family:Verdana;
+    font-size:100%;
+    margin-left:5px;
+    margin-top:5px;
+    border: 2px Solid #868686;
+    background-color:#D8D8D8;
+    margin-right:75%;
+}
+
+.EventsContent
+{
+    color:White;
+    font-family:Georgia;
+    font-size:28px;
+    text-align:center;
+    margin-top:200px;
+    margin-bottom:200px;
+   
+    
+   
 }
 
 .NAUTMenu
@@ -95,11 +120,15 @@
 .NewsFeed
 {
     background-color:Black;
-    border:1px solid gray;
+    border:1px solid White;
     padding:5px 5px 5px 5px;
-    opacity:.7;
+    color:white;
 }
 
-
+/* # for dic id*/
+#DocumentDetail
+{
+    
+}
 
 

@@ -36,39 +36,24 @@
                     <li class ='About'>@Html.ActionLink("About", "About", "About")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Contact")</li>
                     <li>@Html.ActionLink("Events", "Events", "Events")</li>
-                    <li>@Html.ActionLink("Members", "Members", "Members")</li>
                     <li>@Html.ActionLink("Directory", "Directory", "Directory")</li>
                     <li>@Html.ActionLink("Documents", "Documents", "Documents")</li>
-                </ul>
+                    <li><a href = "http://webmail.utahnepal.org/">Email</a></li> 
+               </ul>
            </div>
 
         <div id="main">
             @RenderBody()
         </div>
-        <div class = "Sponsors">
-            <a href="http://bigdaddyspizza.com/">
-                <img alt = "BigDaddy" src="../../Content/Images/big_daddy_anim.gif" style="width:193px; height:100px; border:1px solid gray; margin-right:4px"/>
-            </a>
-        </div>
-        <div class = "Sponsors">
-                <img alt = "BigKahuna" src="../../Content/Images/big_kahuna_anim.gif" style="width:192px; height:100px; border:1px solid gray; margin-right:4px"/>
-        </div>
-        <div class = "Sponsors">
-            <a href="http://www.browspa24.com/">
-                <img alt = "EyeBrow" src="../../Content/Images/eyebrowspa_logo.jpeg" style="width:192px; height:100px; border:1px solid gray; margin-right:4px"/>
-            </a>
-        </div>
-        <div class = "Sponsors">
-            <img alt = "ShopAndGo" src="../../Content/Images/shopngo.jpeg" style="width:192px; height:100px; border:1px solid gray; margin-right:4px;"/> 
-        </div>
-        <div class = "Sponsors" style="float:right">
-            <a href="http://www.himalayankitchen.com/">
-                <img alt = "HimKitchen" src="../../Content/Images/Himalayan_kitchen_logo.jpeg" style="width:193px; height:100px; border:1px solid gray;float:right"/>
-             </a>
-        </div>
+  
         <br />
         <div id = "footer">
             (c) Nepalese Association of Utah. Post Box 510938, Salt Lake City, Utah 84151
+            <br />
+            Site Hosted by
+            <a href ="http://discountasp.net/" target="_blank">
+               <img alt = "Discount Asp.net" src="../../Content/Images/DiscountAsp.jpg" style="height:50px; width:100px; margin-top:10px;" /> 
+            </a>
         </div>
     </div>
 </body>
